@@ -9,7 +9,6 @@ import telefit.actividades.Turno;
 import telefit.excepciones.TelefitException;
 import telefit.excepciones.UsuarioException;
 import telefit.gimnasio.Gimnasio;
-import telefit.gimnasio.Sala;
 import telefit.usuarios.GestorUsuarios;
 import telefit.usuarios.Monitor;
 import telefit.usuarios.Usuario;
