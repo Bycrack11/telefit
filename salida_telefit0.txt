@@ -1,0 +1,54 @@
+///////////////////////////
+// CASOS DE USO ITERACIÓN 0
+///////////////////////////
+
+/// CREAR USUARIOS ///
+
+(ésta fallará...)
+Login "jane" ya existe
+
+
+/// LISTAR USUARIOS ///
+
+El listado de socios...
+
+Hay 5 usuarios de tipo "Socio"
+
+Usuario: pablo
+ Clave: clave
+ Nombre: Pablo Burpees
+ Tipo: Socio
+
+Usuario: antonio
+ Clave: clave
+ Nombre: Antonio Hogan
+ Tipo: Socio
+
+Usuario: alicia
+ Clave: clave
+ Nombre: Alicia Mancuernas
+ Tipo: Socio
+
+Usuario: luisa
+ Clave: clave
+ Nombre: Luisa Flex
+ Tipo: Socio
+
+Usuario: kike
+ Clave: clave
+ Nombre: Enrique Masa
+ Tipo: Socio
+
+El listado de monitores...
+
+Hay 2 usuarios de tipo "Monitor"
+
+Usuario: chuck
+ Clave: clave
+ Nombre: Chuck Norris
+ Tipo: Monitor
+
+Usuario: jane
+ Clave: clave
+ Nombre: Jane Fonda
+ Tipo: Monitor

@@ -1,0 +1,304 @@
+///////////////////////////
+// CASOS DE USO ITERACIÓN 0
+///////////////////////////
+
+/// CREAR USUARIOS ///
+
+(ésta fallará...)
+Login "jane" ya existe
+
+
+/// LISTAR USUARIOS ///
+
+El listado de socios...
+
+Hay 5 usuarios de tipo "Socio"
+
+Usuario: pablo
+ Clave: clave
+ Nombre: Pablo Burpees
+ Tipo: Socio
+
+Usuario: antonio
+ Clave: clave
+ Nombre: Antonio Hogan
+ Tipo: Socio
+
+Usuario: alicia
+ Clave: clave
+ Nombre: Alicia Mancuernas
+ Tipo: Socio
+
+Usuario: luisa
+ Clave: clave
+ Nombre: Luisa Flex
+ Tipo: Socio
+
+Usuario: kike
+ Clave: clave
+ Nombre: Enrique Masa
+ Tipo: Socio
+
+El listado de monitores...
+
+Hay 2 usuarios de tipo "Monitor"
+
+Usuario: chuck
+ Clave: clave
+ Nombre: Chuck Norris
+ Tipo: Monitor
+
+Usuario: jane
+ Clave: clave
+ Nombre: Jane Fonda
+ Tipo: Monitor
+
+
+
+
+///////////////////////////
+// CASOS DE USO ITERACIÓN 1
+///////////////////////////
+
+/// CREAR SALAS ///
+
+Se crean varias salas...
+(ésta fallará...)
+Ya existe la sala Violeta
+
+
+/// REGISTRAR ACTIVIDADES ///
+
+
+jane registra varias actividades
+(ésta fallará...)
+El usuario Jane Fonda no tiene disponibilidad en ese turno
+
+chuck registra varias actividades
+(ésta fallará...)
+No hay ninguna sala disponible en ese horario para la actividad YOGA y con capacidad suficiente
+(ésta fallará...)
+No hay ninguna sala disponible en ese horario para la actividad MASAJE y con capacidad suficiente
+
+
+/// VER AGENDA SALAS ///
+
+Miramos la agenda de varias salas 
+
+AGENDA DE LA SALA Violeta
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: LUNES
+ Turno: MATINAL
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: LUNES
+ Turno: MEDIODIA
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: MARTES
+ Turno: MEDIODIA
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: MIERCOLES
+ Turno: MATINAL
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: MIERCOLES
+ Turno: MEDIODIA
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: JUEVES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: VIERNES
+ Turno: MEDIODIA
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ -------
+
+AGENDA DE LA SALA Verde
+ ------- 
+Actividad tipo: YOGA
+ Sala: Verde
+ Dia: MIERCOLES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 4
+ Apuntados: NINGUNO
+ -------
+
+AGENDA DE LA SALA Púrpura
+ ------- 
+Actividad tipo: SPINNING
+ Sala: Púrpura
+ Dia: MARTES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 3
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: SPINNING
+ Sala: Púrpura
+ Dia: JUEVES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 3
+ Apuntados: NINGUNO
+ -------
+
+AGENDA DE LA SALA Roja
+ ------- 
+Actividad tipo: MASAJE
+ Sala: Roja
+ Dia: MARTES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 1
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: MASAJE
+ Sala: Roja
+ Dia: VIERNES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 1
+ Apuntados: NINGUNO
+ -------
+
+(ésta fallará...)
+No existe la sala Azabache
+
+
+/// VER AGENDA MONITORES ///
+
+Miramos la agenda de los monitores
+
+AGENDA DEL MONITOR Jane Fonda
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: LUNES
+ Turno: MATINAL
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: LUNES
+ Turno: MEDIODIA
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: MIERCOLES
+ Turno: MATINAL
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: MIERCOLES
+ Turno: MEDIODIA
+ Monitor: Jane Fonda
+ Capacidad: 6
+ Apuntados: NINGUNO
+ -------
+
+AGENDA DEL MONITOR Chuck Norris
+ ------- 
+Actividad tipo: SPINNING
+ Sala: Púrpura
+ Dia: MARTES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 3
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Violeta
+ Dia: MARTES
+ Turno: MEDIODIA
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: MASAJE
+ Sala: Roja
+ Dia: MARTES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 1
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: YOGA
+ Sala: Verde
+ Dia: MIERCOLES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 4
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: SPINNING
+ Sala: Púrpura
+ Dia: JUEVES
+ Turno: MATINAL
+ Monitor: Chuck Norris
+ Capacidad: 3
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: JUEVES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: PILATES
+ Sala: Violeta
+ Dia: VIERNES
+ Turno: MEDIODIA
+ Monitor: Chuck Norris
+ Capacidad: 6
+ Apuntados: NINGUNO
+ ------- 
+Actividad tipo: MASAJE
+ Sala: Roja
+ Dia: VIERNES
+ Turno: TARDE
+ Monitor: Chuck Norris
+ Capacidad: 1
+ Apuntados: NINGUNO
+ -------
